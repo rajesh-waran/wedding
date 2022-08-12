@@ -4,6 +4,9 @@
   "version": "3.3.7+1",
   "homepage": "http://github.com/aecio/julianaeaecio",
   "author": "Aécio Santos",
+  "scripts": {
+    "start": "node gulpfile.js"
+  },
   "license": {
     "type": "MIT",
     "url": "https://github.com/aecio/julianaeaecio/blob/gh-pages/LICENSE"
@@ -20,6 +23,15 @@
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3",
     "photoset-grid": "https://github.com/stylehatch/photoset-grid/tarball/master"
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "react-redux@1": {
+        "peerDependencies": {
+          "graceful-fs": "^4.2.10"
+        }
+      }
+    }
   },
   "repository": {
     "type": "git",
