@@ -1629,6 +1629,8 @@ pre code {
 }
 .col-xs-10 {
   width: 83.33333333%;
+  text-align: left;
+  padding-left: 40px;
 }
 .col-xs-9 {
   width: 75%;
